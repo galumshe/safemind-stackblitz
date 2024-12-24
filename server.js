@@ -34,6 +34,11 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(join(__dirname, 'public')));
 }
 
+// Serve index.html for the root URL
+app.get('/', (req, res) => {
+  res.sendFile(join(__dirname, 'public', 'index.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
