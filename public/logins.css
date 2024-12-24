@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Login Section */
+#login, #signup {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#login h2, #signup h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#login p, #signup p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#login form, #signup-form {
+    max-width: 500px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#login form input, #signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login form button, #signup-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+#login form button:hover, #signup-form button:hover {
+    background-color: #0056b3;
+}
+
+#login p a, #signup p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#login p a:hover, #signup p a:hover {
+    text-decoration: underline;
+}
