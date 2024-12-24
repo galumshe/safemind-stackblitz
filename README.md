@@ -45,18 +45,21 @@ Testimonials: Showcases success stories and positive experiences from users.
 Contact: A contact form for users to get in touch with the platform.
 Project Structure
 bash
-Copy code
-├── index.html # Main HTML file
-├── styles.css # CSS file for styling
-├── script.js # JavaScript file for form validation and interactivity
-├── /images # Folder containing images used on the site
-│ ├── home-background.jpg
-│ ├── support-image.jpg
-│ ├── empower.jpg
-│ ├── healing-image.jpg
-│ ├── team-photo.png
-│ ├── profile1.jpg
-│ └── profile2.jpg
+├── config/
+│   └── database.js
+├── routes/
+│   ├── auth.js
+│   ├── users.js
+│   └── appointments.js
+├── public/
+│   ├── js/
+│   │   └── auth.js (if needed for client-side JavaScript)
+│   ├── images/
+│   │   └── your-image.png (example image)
+│   ├── styles.css
+│   └── index.html
+├── server.js
+└── package.json
 └── README.md # This file
 Technologies Used
 HTML5: Structure and content of the web pages.
@@ -69,7 +72,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/galumshe/safemind-website.git
+git clone https://github.com/galumshe/safemind-stackblitz.git
 Open the project directory:
 
 bash
