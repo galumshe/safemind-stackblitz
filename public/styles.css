@@ -54,7 +54,7 @@ h2 {
 }
 
 /* Input Styles */
-input[type="text"], input[type="email"], textarea {
+input[type="text"], input[type="email"], textarea, input[type="password"], input[type="password"], textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -74,7 +74,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff; /* White text to contrast against the background */
+    color: #ffffff; /* White text to contrast against the background */
     text-align: center;
 }
 

@@ -39,6 +39,11 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, 'public', 'index.html'));
 });
 
+// serving the signup
+app.get('/signup', (req, res) => {
+  res.sendFile(join(__dirname, 'public', 'signup.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
